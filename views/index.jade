@@ -1,0 +1,13 @@
+doctype html
+html
+  head
+    title= pageTitle || 'NodeJS Demo'
+    link(rel='stylesheet', href='bootstrap.min.css')
+    link(rel='stylesheet', href='main.css')
+  body
+    .jumbotron
+      .container
+        h1.text-center= header || 'Hello World, NodeJS!'
+        p.text-center This is a test NodeJS app and suppose to host on Heroku.
+        p.text-center Heroku is COOL.
+        a.lang-logo(href='http://heroku.com/node'): img(src='logo.png')
